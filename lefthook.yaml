@@ -1,0 +1,9 @@
+pre-commit:
+  commands:
+    cmd1:
+      run: gradle clean build
+
+pre-push:
+  commands:
+    cmd1:
+      run: gradle clean build

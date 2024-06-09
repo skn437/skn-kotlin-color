@@ -1,0 +1,11 @@
+version: "3"
+
+dotenv:
+  - .env.task
+
+tasks:
+  task1:
+    desc: Task description
+    cmds:
+      - printf "Hello \n"
+      - printf "SKN! \n"
