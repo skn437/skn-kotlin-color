@@ -1,4 +1,4 @@
-@file:Suppress("ktlint:standard:filename", "RedundantSemicolon")
+@file:Suppress("ktlint:standard:filename")
 
 package best.skn.utils.color
 

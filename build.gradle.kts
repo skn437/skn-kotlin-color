@@ -2,12 +2,8 @@ import com.vanniktech.maven.publish.SonatypeHost
 
 plugins {
   kotlin("jvm") version "1.9.23"
+  id("org.jetbrains.dokka") version "1.9.20"
   id("com.vanniktech.maven.publish") version "0.28.0"
-}
-
-java {
-  withJavadocJar()
-  withSourcesJar()
 }
 
 group = "best.skn.utils.color"
