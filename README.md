@@ -20,13 +20,13 @@
 
 ### I made this library so that I can use it in all of my java/kotlin projects without writing the same codes over and over again
 
-### The main API Class of this library are `ColorNativeKt` which holds 16 methods for 8 different colors
+### The main package of this library holds 16 methods for 8 different colors
 
 &nbsp;
 
 ## **_Details:_**
 
-### **`ColorNativeKt` Class:**
+### **`utils.color` package:**
 
 - It doesn't need to be instantiated
 - It has 16 methods for 8 different colors
@@ -77,7 +77,11 @@
 ### Inside your Kotlin Code, import the package like this
 
 > ```kotlin
-> import best.skn.utils.color.ColorNativeKt;
+> import best.skn.utils.color.*;
+> //or
+> import best.skn.utils.color.blue;
+> import best.skn.utils.color.green;
+> //and so on
 > ```
 
 ### You can use the use this library like this
