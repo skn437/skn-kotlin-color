@@ -84,7 +84,7 @@
 > //and so on
 > ```
 
-### You can use the use this library like this
+### You can use this library like this
 
 > ```kotlin
 > val name: String = "SKN".green();
