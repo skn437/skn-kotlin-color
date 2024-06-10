@@ -10,7 +10,7 @@
 
 ## **_KDocs:_**
 
-### Read the Kdoc for the main API: `ColorNativeKt`
+### Read the Kdoc: [utils.color](https://javadoc.io/doc/best.skn/skn-kotlin-color/latest/skn-kotlin-color/utils.color/index.html)
 
 &nbsp;
 
@@ -71,7 +71,7 @@
 ### For `Gradle`, inside `dependencies` of `build.gradle.kts`, copy the following
 
 > ```kotlin
->
+> implementation("best.skn:skn-kotlin-color:1.0.0")
 > ```
 
 ### Inside your Kotlin Code, import the package like this
