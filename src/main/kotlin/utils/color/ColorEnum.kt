@@ -1,6 +1,6 @@
 @file:Suppress("ktlint:standard:filename", "RedundantSemicolon")
 
-package best.skn.utils.color
+package utils.color
 
 /**
  * Color Enum for internal and external use which contains the unicode values for each color

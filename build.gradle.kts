@@ -6,7 +6,7 @@ plugins {
   id("com.vanniktech.maven.publish") version "0.28.0"
 }
 
-group = "best.skn.utils.color"
+group = "best.skn"
 version = "1.0.0"
 
 repositories {

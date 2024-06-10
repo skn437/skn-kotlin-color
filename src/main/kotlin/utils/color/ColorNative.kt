@@ -1,6 +1,6 @@
 @file:Suppress("ktlint:standard:filename")
 
-package best.skn.utils.color
+package utils.color
 
 /**
  * Colorizes String to black
