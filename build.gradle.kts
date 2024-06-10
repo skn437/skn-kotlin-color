@@ -1,7 +1,7 @@
 import com.vanniktech.maven.publish.SonatypeHost
 
 plugins {
-  kotlin("jvm") version "1.9.23"
+  kotlin("jvm") version "1.9.24"
   id("org.jetbrains.dokka") version "1.9.20"
   id("com.vanniktech.maven.publish") version "0.28.0"
 }
@@ -42,7 +42,7 @@ mavenPublishing {
     properties =
       mapOf(
         "java.version" to "21",
-        "kotlin.version" to "1.9.23",
+        "kotlin.version" to "1.9.24",
       )
 
     licenses {

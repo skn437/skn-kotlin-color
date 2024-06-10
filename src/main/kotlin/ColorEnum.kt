@@ -8,7 +8,7 @@ package best.skn.utils.color
  * @author SKN Shukhan
  * @version 1.0.0
  * @since 2024-06-09
- */
+ * */
 enum class Color(private val unicode: String) {
   /**
    * Reset enum constant

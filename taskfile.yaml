@@ -4,8 +4,17 @@ dotenv:
   - .env.task
 
 tasks:
-  task1:
-    desc: Task description
+  build:
+    desc: Gradle build
     cmds:
-      - printf "Hello \n"
-      - printf "SKN! \n"
+      - gradle clean build
+
+  kdoc:
+    desc: Kdoc build
+    cmds:
+      - gradle dokkaHtml
+
+  publish:
+    desc: Publish to Maven Central
+    cmds:
+      - gradle publishToMavenCentral

@@ -1,35 +1,35 @@
-# SKN Java Color Library
+# SKN Kotlin Color Library
 
-<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F02-Spring%20Boot-SJC.svg?alt=media&token=7a8000ee-2708-4da8-9561-99f86e9cd8b9" alt="java" />
+<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F10-Kotlin-SKC.svg?alt=media&token=6ff69423-3bcf-4148-a38f-5c3d9dad0099" alt="kotlin" />
 
-> Java
+> Kotlin
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-java-color)](https://central.sonatype.com/artifact/best.skn/skn-java-color) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-java-color/1.3.2/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-java-color/1.3.2) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-kotlin-color)](https://central.sonatype.com/artifact/best.skn/skn-kotlin-color) [![Kdoc](https://javadoc.io/badge2/best.skn/skn-kotlin-color/1.0.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-kotlin-color/1.0.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
-## **_JavaDocs:_**
+## **_KDocs:_**
 
-### Read the Javadoc for the main API: [Color API](https://javadoc.io/doc/best.skn/skn-java-color/latest/best/skn/utils/color/Color.html)
+### Read the Kdoc for the main API: `ColorNativeKt`
 
 &nbsp;
 
 ## **_Introduction:_**
 
-### This is a simple Java Library for colored text output in console
+### This is a simple Kotlin Library for colored text output in console
 
-### I made this library so that I can use it in all of my java projects without writing the same codes over and over again
+### I made this library so that I can use it in all of my java/kotlin projects without writing the same codes over and over again
 
-### The main API Class of this library is `Color` which holds 16 static methods for 8 different colors
+### The main API Class of this library are `ColorNativeKt` which holds 16 methods for 8 different colors
 
 &nbsp;
 
 ## **_Details:_**
 
-### **`Color` Class:**
+### **`ColorNativeKt` Class:**
 
 - It doesn't need to be instantiated
-- It has 16 static methods for 8 different colors
+- It has 16 methods for 8 different colors
 - The colors are:
   - Black
   - Red
@@ -44,15 +44,15 @@
 
 ## **_Use Case:_**
 
-- Java
-- Java Spring Boot
+- Java/Kotlin
+- Spring Boot
 
 &nbsp;
 
 ## **_Requirements:_**
 
-- 💀 Minimum Java Version: `21`
-- 💀 Minimum Maven Version: `3.9.6`
+- 💀 Minimum JDK Version: `21`
+- 💀 Minimum Kotlin Version: `1.9.4`
 
 &nbsp;
 
@@ -63,24 +63,29 @@
 > ```xml
 > <dependency>
 >  <groupId>best.skn</groupId>
->  <artifactId>skn-java-color</artifactId>
->  <version>1.3.2</version>
+>  <artifactId>skn-kotlin-color</artifactId>
+>  <version>1.0.0</version>
 > </dependency>
 > ```
 
-### Write the following in the terminal
+### For `Gradle`, inside `dependencies` of `build.gradle.kts`, copy the following
 
-> ```zsh
-> mvn install
+> ```kotlin
+>
 > ```
 
-### Inside your Java Code, import the package like this
+### Inside your Kotlin Code, import the package like this
 
-> ```java
-> import best.skn.utils.color.Color;
+> ```kotlin
+> import best.skn.utils.color.ColorNativeKt;
 > ```
 
-### For instructions for `Gradle` & others: Visit [Maven Central](https://central.sonatype.com/artifact/best.skn/skn-java-color)
+### You can use the use this library like this
+
+> ```kotlin
+> val name: String = "SKN".green();
+> val email: String = "skn437physx@gmail.com".blue();
+> ```
 
 &nbsp;
 
@@ -90,3 +95,11 @@
   enough for always treasuring me a lot. I am lucky that I met with these two amazing ladies. They have two special
   places in my heart and no other girl can ever replace them.
 - 💯`My Parents`: The greatest treasures of my life ever.
+
+&nbsp;
+
+## **_License:_**
+
+Copyright (C) 2024 SKN Shukhan
+
+Licensed under the Apache License, Version 2.0
