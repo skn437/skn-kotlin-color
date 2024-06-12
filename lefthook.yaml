@@ -1,9 +1,9 @@
 pre-commit:
   commands:
     build:
-      run: gradle clean build
+      run: task build
 
 pre-push:
   commands:
     build:
-      run: gradle clean build
+      run: task build

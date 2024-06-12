@@ -28,12 +28,11 @@ kotlin {
 
 fun dokkaMd(): Array<String> {
   val path: String = "./.dokka"
-  var extension: String = ".md"
 
   val fileNames: Array<String> = arrayOf("module", "utils_color")
 
   fileNames.forEachIndexed { index, element ->
-    if (index != 0) extension = ".package.md"
+    val extension: String = if (index == 0) ".md" else ".package.md"
 
     fileNames[index] = "$path/$element$extension"
   }

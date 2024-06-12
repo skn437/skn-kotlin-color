@@ -28,7 +28,6 @@
 
 ### **`utils.color` package:**
 
-- It doesn't need to be instantiated
 - It has 16 methods for 8 different colors
 - The colors are:
   - Black
