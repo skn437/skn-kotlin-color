@@ -4,7 +4,7 @@
 
 > Kotlin
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-kotlin-color)](https://central.sonatype.com/artifact/best.skn/skn-kotlin-color) [![Kdoc](https://javadoc.io/badge2/best.skn/skn-kotlin-color/1.0.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-kotlin-color/1.0.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-kotlin-color)](https://central.sonatype.com/artifact/best.skn/skn-kotlin-color) [![Kdoc](https://javadoc.io/badge2/best.skn/skn-kotlin-color/1.0.1/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-kotlin-color/1.0.1) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
@@ -64,31 +64,29 @@
 > <dependency>
 >  <groupId>best.skn</groupId>
 >  <artifactId>skn-kotlin-color</artifactId>
->  <version>1.0.0</version>
+>  <version>1.0.1</version>
 > </dependency>
 > ```
 
 ### For `Gradle`, inside `dependencies` of `build.gradle.kts`, copy the following
 
 > ```kotlin
-> implementation("best.skn:skn-kotlin-color:1.0.0")
+> implementation("best.skn:skn-kotlin-color:1.0.1")
 > ```
 
 ### Inside your Kotlin Code, import the package like this
 
 > ```kotlin
-> import best.skn.utils.color.*;
-> //or
-> import best.skn.utils.color.blue;
-> import best.skn.utils.color.green;
+> import best.skn.utils.color.blue
+> import best.skn.utils.color.green
 > //and so on
 > ```
 
 ### You can use this library like this
 
 > ```kotlin
-> val name: String = "SKN".green();
-> val email: String = "skn437physx@gmail.com".blue();
+> val name: String = "SKN".green()
+> val email: String = "skn437physx@gmail.com".blue()
 > ```
 
 &nbsp;

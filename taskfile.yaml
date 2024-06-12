@@ -17,4 +17,4 @@ tasks:
   publish:
     desc: Publish to Maven Central
     cmds:
-      - gradle publishToMavenCentral
+      - gradle publishAndReleaseToMavenCentral --no-configuration-cache

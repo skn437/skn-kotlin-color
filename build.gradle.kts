@@ -1,4 +1,5 @@
 import com.vanniktech.maven.publish.SonatypeHost
+import org.jetbrains.dokka.gradle.DokkaTask
 
 plugins {
   kotlin("jvm") version "1.9.24"
@@ -7,7 +8,7 @@ plugins {
 }
 
 group = "best.skn"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
   mavenCentral()
@@ -25,6 +26,29 @@ kotlin {
   jvmToolchain(21)
 }
 
+fun dokkaMd(): Array<String> {
+  val path: String = "./.dokka"
+  var extension: String = ".md"
+
+  val fileNames: Array<String> = arrayOf("module", "utils_color")
+
+  fileNames.forEachIndexed { index, element ->
+    if (index != 0) extension = ".package.md"
+
+    fileNames[index] = "$path/$element$extension"
+  }
+
+  return fileNames
+}
+
+tasks.withType<DokkaTask>().configureEach {
+  dokkaSourceSets {
+    named("main") {
+      includes.from(*dokkaMd())
+    }
+  }
+}
+
 mavenPublishing {
   coordinates(
     groupId = "$group",
@@ -33,7 +57,7 @@ mavenPublishing {
   )
 
   pom {
-    name = "SKN Spring Color"
+    name = "SKN Kotlin Color"
     description = "A Simple Color Library For Kotlin"
     inceptionYear = "2024"
 
