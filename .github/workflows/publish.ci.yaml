@@ -34,11 +34,12 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
 
       - name: Install GPG
+        run: brew install gpg
+
+      - name: Create Secring
         env:
           SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
-        run: |
-          brew install gpg
-          echo "${SIGNING_KEY}" | gpg --dearm > ${HOME}/secring.gpg
+        run: echo "${SIGNING_KEY}" | gpg --dearm > ${HOME}/secring.gpg
 
       - name: Add Gradle Properties
         env:
