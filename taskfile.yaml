@@ -4,6 +4,11 @@ dotenv:
   - .env.task
 
 tasks:
+  init:
+    desc: Initialize project
+    cmds:
+      - lefthook install
+
   build:
     desc: Gradle build
     cmds:
@@ -17,4 +22,4 @@ tasks:
   publish:
     desc: Publish to Maven Central
     cmds:
-      - gradle publishToMavenCentral
+      - gradle publishAndReleaseToMavenCentral --no-configuration-cache

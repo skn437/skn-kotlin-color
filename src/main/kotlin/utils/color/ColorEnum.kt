@@ -1,4 +1,4 @@
-@file:Suppress("ktlint:standard:filename", "RedundantSemicolon")
+@file:Suppress("ktlint:standard:filename")
 
 package utils.color
 
@@ -6,7 +6,7 @@ package utils.color
  * Color Enum for internal and external use which contains the unicode values for each color
  *
  * @author SKN Shukhan
- * @version 1.0.0
+ * @version 1.0.1
  * @since 2024-06-09
  * */
 enum class Color(private val unicode: String) {
@@ -136,10 +136,10 @@ enum class Color(private val unicode: String) {
    * Example:
    *
    * ```kotlin
-   * import best.skn.utils.color.Color;
+   * import best.skn.utils.color.Color
    *
    * fun main() {
-   *  println("Color name: ${Color.BLUE.format()}");
+   *  println("Color name: ${Color.BLUE.format()}")
    * }
    * ```
    *
@@ -149,7 +149,7 @@ enum class Color(private val unicode: String) {
    * */
   fun format(): String =
     this.name.lowercase().replaceFirstChar {
-      it.uppercase();
+      it.uppercase()
     }
 
   /**
@@ -158,10 +158,10 @@ enum class Color(private val unicode: String) {
    * Example:
    *
    * ```kotlin
-   * import best.skn.utils.color.Color;
+   * import best.skn.utils.color.Color
    *
    * fun main() {
-   *  println("${Color.BLUE.value()}This text is blue!");
+   *  println("${Color.BLUE.value()}This text is blue!")
    * }
    * ```
    *
