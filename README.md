@@ -1,6 +1,6 @@
 # SKN Kotlin Color Library
 
-<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F10-Kotlin-SKC.svg?alt=media&token=6ff69423-3bcf-4148-a38f-5c3d9dad0099" alt="kotlin" />
+<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F10-Kotlin-SKC.svg?alt=media&token=87dbc071-6d7f-4371-abed-434c5ac27f0a" alt="kotlin" />
 
 > Kotlin
 
